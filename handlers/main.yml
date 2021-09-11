@@ -1,0 +1,6 @@
+---
+- name: restart_promtail
+  systemd: 
+    name: promtail 
+    state: restarted 
+    enabled: yes
